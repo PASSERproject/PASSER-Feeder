@@ -13,13 +13,13 @@ positionlist = [leftPosition, middlePosition, rightPosition, middlePosition]
 ms=1000/freq
 dutyCyclePercentage=positionlist[0]*100/ms
 pwm.start(dutyCyclePercentage)
-time.sleep(10)
+time.sleep(1)
 #dutyCyclePercentage=positionlist[1]*100/ms
 #pwm.start(dutyCyclePercentage)
 #time.sleep(1)
-dutyCyclePercentage=positionlist[2]*100/ms
-pwm.start(dutyCyclePercentage)
-time.sleep(1)
+#dutyCyclePercentage=positionlist[2]*100/ms
+#pwm.start(dutyCyclePercentage)
+#time.sleep(1)
 pwm.stop()
 
 GPIO.cleanup()

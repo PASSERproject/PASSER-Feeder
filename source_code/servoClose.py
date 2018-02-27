@@ -11,9 +11,9 @@ rightPosition = 2.5
 middlePosition = (rightPosition - leftPosition) /2 + leftPosition
 positionlist = [leftPosition, middlePosition, rightPosition, middlePosition]
 ms=1000/freq
-dutyCyclePercentage=positionlist[0]*100/ms
-pwm.start(dutyCyclePercentage)
-time.sleep(10)
+#dutyCyclePercentage=positionlist[0]*100/ms
+#pwm.start(dutyCyclePercentage)
+#time.sleep(10)
 #dutyCyclePercentage=positionlist[1]*100/ms
 #pwm.start(dutyCyclePercentage)
 #time.sleep(1)
